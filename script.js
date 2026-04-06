@@ -9,7 +9,7 @@ const apiCall = async function (url) {
     console.log(error);
   }
 };
-
+apiCall("https://docpatient-nexus.onrender.com/");
 // Create a worker function that will call the api after every 5 minutes
 
 setInterval(() => {
